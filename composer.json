@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Medooch\\Bundles\\MedoochTranslationBundle": "../../Medooch/MedoochTranslationBundle/"
+            "Medooch\\Bundles\\MedoochTranslationBundle\\": "../../Medooch/MedoochTranslationBundle/"
         }
     }
 }
