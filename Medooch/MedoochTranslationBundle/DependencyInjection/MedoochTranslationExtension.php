@@ -23,7 +23,7 @@ class MedoochTranslationExtension extends Extension
         $config = $this->processConfiguration($configuration, $configs);
 
         foreach ($config as $item => $value){
-            $container->setParameter('medooch_i18n.'.$item, $value);
+            $container->setParameter('medooch_translation.'.$item, $value);
         }
     }
 }

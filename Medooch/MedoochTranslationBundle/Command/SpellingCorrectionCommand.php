@@ -70,7 +70,7 @@ class SpellingCorrectionCommand extends I18nCommand
             throw new \Exception('The spelling correction language is not equal to "fr" => "frensh". Change your locale parameter to "fr".');
         }
 
-        $bundles = $this->getContainer()->getParameter('generator.translator')['bundles'];
+        $bundles = $this->getContainer()->getParameter('medooch_translation.i18n')['bundles'];
         $this->io = new SymfonyStyle($input, $output);
         $this->io->title('Start Spelling Correction by Medooch');
         $this->output = [];
