@@ -3,7 +3,7 @@
     "description": "This bundle offer to developers the possibilities to generate all i18n files from the %locale_parameter% to %locales_parameters%.",
     "type": "library",
     "require": {
-        "php": "7.1.1",
+        "php": "7.1.*",
         "symfony/symfony": "3.3",
         "medooch/symfony-components": "dev-master"
     },
